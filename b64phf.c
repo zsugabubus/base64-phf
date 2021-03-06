@@ -232,7 +232,6 @@ int main()
 	b64_pos[chr_asso('a')] = (I){ 'a', 26 };
 	b64_pos[chr_asso('0')] = (I){ '0', 26 + 26 };
 	b64_pos[chr_asso('+')] = (I){ '+', 26 + 26 + 10 };
-	b64_pos[chr_asso(',')] = (I){ ',', 26 + 26 + 10 };
 	b64_pos[chr_asso('-')] = (I){ '-', 26 + 26 + 10 };
 	b64_pos[chr_asso('/')] = (I){ '/', 26 + 26 + 10 + 1 };
 	b64_pos[chr_asso('_')] = (I){ '_', 26 + 26 + 10 + 1 };
